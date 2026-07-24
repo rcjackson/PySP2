@@ -41,5 +41,9 @@ size distribution timeseries data.
    particle_information
    view_hk_data
    processing_time_series
+   sp2xr_data
+   leo_fits_and_deadtime
+   normalized_derivative_method
+   data_editor
 
 

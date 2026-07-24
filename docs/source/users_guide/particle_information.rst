@@ -76,6 +76,33 @@ description of each variable is provided.
    * - IncanPkOffsetch1ch2
      - Peak Position ch5 - Peak Position ch6
 
+.. list-table:: LEO-fit variables added by :func:`pysp2.util.beam_shape` and :func:`pysp2.util.leo_fit`
+   :header-rows: 1
+
+   * - Variable name
+     - Variable description
+   * - leo_AmpFactor_ch#
+     - Amplitude scaling factor derived from the beam shape, channel # (0, 4 only)
+   * - leo_PkFWHM_ch#
+     - Interpolated beam full width at half maximum at the particle's position, channel #
+   * - leo_PkPos_ch#
+     - Interpolated peak position used as the reference for the leading-edge fit, channel #
+   * - leo_EndPos_ch#
+     - End of the leading-edge fit window, channel #
+   * - leo_FtAmp_ch#
+     - LEO-fit peak amplitude, reconstructed from the leading edge only, channel # (0, 4 only)
+   * - leo_Base_ch#
+     - LEO-fit baseline, channel # (0, 4 only)
+
+.. list-table:: Deadtime bias correction added by :func:`pysp2.util.deadtime`
+   :header-rows: 1
+
+   * - Variable name
+     - Variable description
+   * - DeadtimeRelativeBias
+     - Relative bias in particle counts for each measurement buffer due to
+       trigger deadtime, following Schwarz et al. (2022)
+
 .. list-table::  Particle properties
    :header-rows: 1
 

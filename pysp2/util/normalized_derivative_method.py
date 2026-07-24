@@ -28,10 +28,13 @@ def central_difference(S, num_records=None, normalize=True, baseline_to_zero=Tru
     central difference scheme (Moteki & Kondo, Eq. A.1)
     for scattering channels (ch0 and ch4).
     Interior points:
-        - Fourth-order central difference 
-    Edge cases: 
-        - First two points: fourth-order forward difference  
-        - Last two points: fourth-order backward difference 
+
+        - Fourth-order central difference
+
+    Edge cases:
+
+        - First two points: fourth-order forward difference
+        - Last two points: fourth-order backward difference
 
     Parameters 
     ---------- 

@@ -8,6 +8,8 @@ This module contains visualization subroutines for SP2 data.
     :toctree: generated/
 
     plot_wave
+    plot_waves
+    DataEditor
 """
 from .plot_wave import plot_wave, plot_waves
 from .data_editor import DataEditor

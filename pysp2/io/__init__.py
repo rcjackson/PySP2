@@ -11,6 +11,7 @@ This module contains all of the procedures for reading and writing SP2 data.
     read_sp2xr_hk_file
     read_sp2xr_hk_psd
     get_hk_variable_names
+    read_multi_hk_file
     read_sp2
     read_sp2xr
     read_sp2xr_pbp
