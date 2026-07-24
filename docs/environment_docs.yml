@@ -1,10 +1,14 @@
 name: pysp2-docs
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - act-atmos
   - xarray
+  - pandas
+  - numpy
+  - scipy
+  - xlrd
+  - matplotlib
   - sphinx
   - pydata-sphinx-theme
   - arm-test-data
